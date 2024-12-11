@@ -33,12 +33,7 @@ NFT-Auction-Project/
     │   ├── listActiveAuctions.cdc  # Script to list all active auctions
     │   └── checkHighestBid.cdc     # Script to check the highest bid for an auction
 ```
-
-### Key Points:
-1. All Cadence files (`contracts`, `transactions`, `scripts`) are inside the `codence` folder.
-2. The `README.md` file is in the root directory for easier visibility and access.
-
-Let me know if further adjustments are needed!
+---
 
 ## **How to Use**
 This project is designed to be run entirely within the **Flow Playground**:
