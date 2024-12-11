@@ -15,25 +15,30 @@ This project implements a decentralized auction system for NFTs on the Flow bloc
 
 ## **Project Structure**
 ```
-SimpleNFT-Auction/cadence/
+NFT-Auction-Project/
 │
-├── contracts/
-│   ├── NFTAuction.cdc          # Main auction contract
+├── README.md                       # Project documentation (this file)
 │
-├── transactions/
-│   ├── createAuction.cdc       # Transaction to create an auction
-│   ├── placeBid.cdc            # Transaction to place a bid
-│   ├── finalizeAuction.cdc     # Transaction to finalize an auction
-│
-├── scripts/
-│   ├── checkAuctionState.cdc   # Script to query details of an auction
-│   ├── listActiveAuctions.cdc  # Script to list all active auctions
-│   ├── checkHighestBid.cdc     # Script to check the highest bid for an auction
-│
-├── README.md                   # Project documentation (this file)
+└── codence/
+    ├── contracts/
+    │   └── NFTAuction.cdc          # Main auction contract
+    │
+    ├── transactions/
+    │   ├── createAuction.cdc       # Transaction to create an auction
+    │   ├── placeBid.cdc            # Transaction to place a bid
+    │   └── finalizeAuction.cdc     # Transaction to finalize an auction
+    │
+    ├── scripts/
+    │   ├── checkAuctionState.cdc   # Script to query details of an auction
+    │   ├── listActiveAuctions.cdc  # Script to list all active auctions
+    │   └── checkHighestBid.cdc     # Script to check the highest bid for an auction
 ```
 
----
+### Key Points:
+1. All Cadence files (`contracts`, `transactions`, `scripts`) are inside the `codence` folder.
+2. The `README.md` file is in the root directory for easier visibility and access.
+
+Let me know if further adjustments are needed!
 
 ## **How to Use**
 This project is designed to be run entirely within the **Flow Playground**:
